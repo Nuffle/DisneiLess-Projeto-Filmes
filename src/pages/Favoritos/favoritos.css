@@ -1,0 +1,82 @@
+.meus-filmes {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 24px;
+}
+
+.meus-filmes h1 {
+   margin-bottom: 14px;
+}
+
+.meus-filmes span {
+   font-size: 18px;
+}
+
+.meus-filmes ul {
+   width: 720px;
+}
+
+.meus-filmes ul li {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 14px;
+}
+
+@media screen and (max-width: 760px) {
+   .meus-filmes ul li {
+      padding: 0 20px;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .meus-filmes ul li {
+      padding: 0 50px;
+   }
+}
+
+@media screen and (max-width: 640px) {
+   .meus-filmes ul li {
+      padding: 0 70px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .meus-filmes ul li {
+      padding: 0 100px;
+   }
+}
+
+@media screen and (max-width: 540px) {
+   .meus-filmes ul li {
+      padding: 0 130px;
+   }
+}
+
+.meus-filmes div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.meus-filmes div a {
+   text-decoration: none;
+   color: #116FEB;
+   margin-right: 14px;
+}
+
+.meus-filmes div a:hover {
+   text-decoration: underline;
+}
+
+.meus-filmes button {
+   background-color: rgb(255, 68, 68);
+   border: none;
+   cursor: pointer;
+   width: 60px;
+   height: 24px;
+   border-radius: 4px;
+   outline: none;
+}
